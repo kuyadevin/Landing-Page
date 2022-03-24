@@ -3,6 +3,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+    position:fixed;
+    height: 50px;
+    Width:100%;
+    background-color: darkblue;
+}
+
 h1 {
    font-size: 45px;
    text-align: center;
@@ -14,6 +21,8 @@ h1 {
 img {
     width: 270px;
     height: 270px;
+    border:10px solid;
+    border-color:darkblue
 }
 
 h2,
@@ -22,9 +31,14 @@ h4 {
     font-weight:bolder
 }
 
+.Nav {
+    text-align: right;
+}
+
 li{
     display:inline;
-    right:0%
+    right:0%;
+    
 }
 
 .text-center {
